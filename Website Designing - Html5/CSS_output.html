@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration form</h1>
+    <form>
+        
+        <table>
+            <tr>
+                <td><label for="name">Firtst Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="First Name"></td>
+            </tr>
+    
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" id="last_name" name="last_name" placeholder="Last Name"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="it should contain @"></td>
+            </tr>
+
+            <tr>
+                <td><label >Mobile:</label></td>
+                <td><input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed"></td>
+            </tr>
+
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                <input type="radio" name="gender">male
+                <input type="radio" name="gender">female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="Date of Birth">Date of Birth:</label></td>
+                <td><input type="date" id="Date of Birth" name="Date of Birth"></td>
+            </tr>
+
+            <tr>
+                <td><label for="address">Adress:</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input type="text" name="city" id="city"></td>
+            </tr>
+
+            <tr>
+                <td><label for="areapin">Area pin:</label></td>
+                <td><input type="text" name="areapin" id="areapin"></td>
+            </tr>
+
+            <tr>
+                <td><label for="state">State:</label></td>
+                <td><input type="text" name="state" id="state"></td>
+            </tr>
+
+            <tr>
+                <td><label for="qulification">Qulification:</label></label></td>
+                <td>
+                    <select name="qulification" id="">
+                    <option value="select">Select Qulification</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="graduation">graduation</option>
+                    <option value="post graduation">post graduation</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="specialization">Specialization:</label></td>
+                <td><input type="checkbox" name="specialization" id="specialization">Computer sinces</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="specialization" id="specialization">information technology</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="specialization" id="specialization">Computer architecture</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="specialization" id="specialization">Tele communication</td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>
+                <input type="password" name="password" id="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="button">Register</label></td>
+            </tr>
+            <tr>
+                <td>
+                <button type="submit">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
